@@ -1,0 +1,82 @@
+baseURL: https://quantumshiro.github.io/profile
+languageCode: ja
+title: Shiro's Page
+theme: "PaperMod" 
+publishDir: "docs" 
+
+canonifyurls: true
+enableEmoji: true
+canonifyurls: true
+minify:
+  disableXML: true
+  minifyOutput: true
+
+
+params:
+    # defaultTheme: light
+    # defaultTheme: dark
+    defaultTheme: auto # to switch between dark or light according to browser theme
+params:
+    homeInfoParams:
+        discription: "Blog of Shiro"
+        author: Shiro
+        images: ["profile.png"]
+        defaultTheme: auto
+        disableThemeToggle: false
+        ShowReadingTime: true
+        ShowShareButtons: true
+        ShowPostNavLinks: true
+        ShowBreadCrumbs: true
+        ShowCodeCopyButtons: true
+
+        disableSpecial1stPost: false
+        disableScrollToTop: false
+        comments: false
+        hidemeta: false
+        hideSummary: false
+        showtoc: false
+        tocopen: false
+    
+    ProfileMode:
+        enabled: true
+        Title: Shiro
+        subtitle: "interest: cryptography "
+        imageUrl: "profile.png"
+        imageWidth: 200
+        imageHight: 200
+        imageTitle: my image
+        # Content: Hi, there!
+
+    socialIcons: # optional
+        - name: "Github"
+          url: "https://github.com/hntk03"
+
+        - name: "Twitter"
+          url:  "https://twitter.com/Curiosi46542428"
+    
+    cover:
+        hidden: true
+        hiddenInList: true
+        hiddenInSingle: true
+    
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: blogs
+      name: blogs
+      url: blogs
+      weight: 5
+
+    - identifier: profile
+      name: profile
+      url: fixed/profile
+      weight: 10
+
