@@ -50,7 +50,7 @@ params:
     # safari_pinned_tab: "Thinking_Face_Emoji_large.png"
 
   label:
-    text: "Top"
+    text: "Shiro's page"
     # icon: Thinking_Face_Emoji_large.png
     iconHeight: 35
 
@@ -94,6 +94,7 @@ params:
 
 menu:
   main:
+
     - identifier: profile
       name: profile
       url: profile
@@ -102,4 +103,9 @@ menu:
     - identifier: posts
       name: posts
       url: posts
+      weight: 5
+
+    - identifier: tags
+      name: tags
+      url: tags
       weight: 5
