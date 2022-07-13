@@ -1,87 +1,105 @@
-baseURL: https://quantumshiro.github.io/Portfolio/
-languageCode: ja
-title: Shiro's Page
-theme: "PaperMod" 
-publishDir: "docs" 
+baseURL: "https://quantumshiro.github.io/Portfolio/"
+canonifyurls: false
+publishDir: "docs"
+title: Shiro's Homepage
+paginate: 5
+theme: PaperMod
 
-canonifyurls: true
 enableEmoji: true
-canonifyurls: true
+enableRobotsTXT: true
+
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
 minify:
   disableXML: true
   minifyOutput: true
 
-
 params:
-    # defaultTheme: light
-    # defaultTheme: dark
-    defaultTheme: auto # to switch between dark or light according to browser theme
-params:
-    homeInfoParams:
-        discription: "Blog of Shiro"
-        author: Shiro
-        images: ["profile.png"]
-        defaultTheme: auto
-        disableThemeToggle: false
-        ShowReadingTime: true
-        ShowShareButtons: true
-        ShowPostNavLinks: true
-        ShowBreadCrumbs: true
-        ShowCodeCopyButtons: true
+  #    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Shiro
+  description: "Blog of Shiro."
+  keywords: [Blog, Portfolio, PaperMod]
+  author: Shiro
+  # author: ["Me", "You"] # multiple authors
+  images: ["profile.png"]
+  DateFormat: "July 13, 2022"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
 
-        disableSpecial1stPost: false
-        disableScrollToTop: false
-        comments: false
-        hidemeta: false
-        hideSummary: false
-        showtoc: false
-        tocopen: false
-    
-    ProfileMode:
-        enabled: true
-        Title: Shiro
-        subtitle: "interest: cryptography "
-        imageUrl: "profile.png"
-        imageWidth: 200
-        imageHight: 200
-        imageTitle: my image
-        # Content: Hi, there!
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
 
-    socialIcons: # optional
-        - name: "Github"
-          url: "https://github.com/quantumshiro"
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
 
-        - name: "Twitter"
-          url:  "https://twitter.com/Curiosi46542428"
-    
-    cover:
-        hidden: true
-        hiddenInList: true
-        hiddenInSingle: true
-    
-    editPost:
-        URL: "https://github.com/quantumshiro/Portfolio/content"
-        Text: "Suggest Changes"
-        appendFilePath: true
+  assets:
+    # favicon: "Thinking_Face_Emoji_large.png"
+    # favicon16x16: "Thinking_Face_Emoji_large.png"
+    # favicon32x32: "Thinking_Face_Emoji_large.png"
+    # apple_touch_icon: "Thinking_Face_Emoji_large.png"
+    # safari_pinned_tab: "Thinking_Face_Emoji_large.png"
 
-    fuseOpts:
-        isCaseSensitive: false
-        shouldSort: true
-        location: 0
-        distance: 1000
-        threshold: 0.4
-        minMatchCharLength: 0
-        keys: ["title", "permalink", "summary", "content"]
+  label:
+    text: "Top"
+    # icon: Thinking_Face_Emoji_large.png
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: "Hi, there!"
+    subtitle: "interest"
+    imageUrl: "profile.png"
+    imageWidth: 200
+    imageHeight: 200
+    imageTitle: my image
+    # buttons:
+    #     - name: Posts
+    #       url: posts
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/quantumshiro"
+    - name: twitter
+      url: "https://twitter.com/Curiosi46542428"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  editPost:
+    URL: "https://github.com/quamtumshiro/Profile/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
 
 menu:
   main:
-    - identifier: blogs
-      name: blogs
-      url: /blogs
-      weight: 5
-
     - identifier: profile
       name: profile
-      url: /profile
+      url: profile
       weight: 10
 
+    - identifier: posts
+      name: posts
+      url: posts
+      weight: 5

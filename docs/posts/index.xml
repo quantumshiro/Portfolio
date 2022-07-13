@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Shiro&#39;s Homepage</title>
-    <link>https://quantumshiro.github.io/Portfolio/</link>
-    <description>Recent content on Shiro&#39;s Homepage</description>
+    <title>Posts on Shiro&#39;s Homepage</title>
+    <link>https://quantumshiro.github.io/Portfolio/posts/</link>
+    <description>Recent content in Posts on Shiro&#39;s Homepage</description>
     <image>
       <url>https://quantumshiro.github.io/Portfolio/profile.png</url>
       <link>https://quantumshiro.github.io/Portfolio/profile.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 13 Jul 2022 22:00:27 +0900</lastBuildDate><atom:link href="https://quantumshiro.github.io/Portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Jul 2022 22:00:27 +0900</lastBuildDate><atom:link href="https://quantumshiro.github.io/Portfolio/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Post</title>
       <link>https://quantumshiro.github.io/Portfolio/posts/first-post/</link>

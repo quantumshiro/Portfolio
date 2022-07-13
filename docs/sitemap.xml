@@ -3,11 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://quantumshiro.github.io/Portfolio/categories/</loc>
+    <loc>https://quantumshiro.github.io/Portfolio/posts/first-post/</loc>
+    <lastmod>2022-07-13T22:00:27+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://quantumshiro.github.io/Portfolio/posts/</loc>
+    <lastmod>2022-07-13T22:00:27+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://quantumshiro.github.io/Portfolio/</loc>
+    <lastmod>2022-07-13T22:00:27+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://quantumshiro.github.io/Portfolio/categories/</loc>
   </url>
   
   <url>
