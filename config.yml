@@ -77,11 +77,11 @@ menu:
   main:
     - identifier: blogs
       name: blogs
-      url: blogs
+      url: /blogs
       weight: 5
 
     - identifier: profile
       name: profile
-      url: fixed/profile
+      url: /profile
       weight: 10
 
