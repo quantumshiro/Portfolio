@@ -59,6 +59,11 @@ params:
         hiddenInList: true
         hiddenInSingle: true
     
+    editPost:
+        URL: "https://github.com/quantumshiro/Portfolio/content"
+        Text: "Suggest Changes"
+        appendFilePath: true
+
     fuseOpts:
         isCaseSensitive: false
         shouldSort: true
