@@ -79,7 +79,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/quamtumshiro/Profile/content"
+    URL: "https://github.com/quantumshiro/Portfolio"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -94,18 +94,15 @@ params:
 
 menu:
   main:
-
     - identifier: profile
       name: profile
-      url: profile
+      url: profile/
       weight: 10
-
     - identifier: posts
       name: posts
-      url: posts
+      url: posts/
       weight: 5
-
     - identifier: tags
       name: tags
-      url: tags
+      url: tags/
       weight: 5

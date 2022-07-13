@@ -3,6 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://quantumshiro.github.io/Portfolio/profile/main/</loc>
+    <lastmod>2022-07-13T23:39:14+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://quantumshiro.github.io/Portfolio/profile/</loc>
+    <lastmod>2022-07-13T23:39:14+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://quantumshiro.github.io/Portfolio/</loc>
+    <lastmod>2022-07-13T23:39:14+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://quantumshiro.github.io/Portfolio/tags/anniversary/</loc>
+    <lastmod>2022-07-13T22:00:27+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://quantumshiro.github.io/Portfolio/posts/first-post/</loc>
     <lastmod>2022-07-13T22:00:27+09:00</lastmod>
   </url>
@@ -13,16 +33,12 @@
   </url>
   
   <url>
-    <loc>https://quantumshiro.github.io/Portfolio/</loc>
+    <loc>https://quantumshiro.github.io/Portfolio/tags/</loc>
     <lastmod>2022-07-13T22:00:27+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://quantumshiro.github.io/Portfolio/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://quantumshiro.github.io/Portfolio/tags/</loc>
   </url>
   
 </urlset>
