@@ -49,7 +49,7 @@ params:
 
     socialIcons: # optional
         - name: "Github"
-          url: "https://github.com/hntk03"
+          url: "https://github.com/quantumshiro"
 
         - name: "Twitter"
           url:  "https://twitter.com/Curiosi46542428"
